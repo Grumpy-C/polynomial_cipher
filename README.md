@@ -21,3 +21,26 @@ i'm 16 bro don't expect me to come up with some groundbreaking shit
 
 ## is it secure
 somewhat yea. maybe. idk, i'm not a math crypto prodigy. just use a key longer than like 4 characters and you should probably be fine
+
+## what i do
+### encryption:
+pass in TWO bytes values into the function... the plaintext and the key
+```py
+print(polynoimal_cipher.encrypt(b"hello", b"world"))
+# this should print " b'\xdf\x8d):\xc2' " to console
+```
+yeah. you get a bytes value returned
+
+### decryption:
+again, pass in TWO bytes values into the function... the ciphertext and the key
+```py
+print(polynoimal_cipher.decrypt(b"\xdf\x8d):\xc2", b"world"))
+# this should print " b'hello' " to console
+```
+yeah. yet again, you get a bytes value returned
+
+## "bro finds out about ecc"
+Fuck you pwoofy i have no idea what the hell that even means. What ?????????????
+
+## you're not funny
+sorry
